@@ -23,3 +23,4 @@
 /sec_efs        ext4    /dev/block/bootdevice/by-name/sec_efs        flags=backup=1;display="Sec EFS"
 /cache          ext4    /dev/block/bootdevice/by-name/cache          flags=display="Cache"
 /metadata       ext4    /dev/block/bootdevice/by-name/metadata       flags=backup=1;display="Metadata"
+/sdcard1        auto    /dev/block/mmcblk1p1    /dev/block/mmcblk1   flags=display="MicroSD";storage;wipeingui;removable
